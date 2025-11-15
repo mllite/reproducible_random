@@ -19,7 +19,7 @@ setup(
     version=__version__,
     author="Antoine CARME",
     author_email="antoine.carme@outlook.com",
-    url="https://github.com/antoinecarme/reproducible_random",
+    url="https://github.com/mllite/reproducible_random",
     description="A reproducible random number generator module using pybind11",
     long_description="A python random number generator that can be reproduced across hardware and software platforms. Based on the C++ standard random number generator (std::mt19937) . Source only. ",
     ext_modules=ext_modules,
