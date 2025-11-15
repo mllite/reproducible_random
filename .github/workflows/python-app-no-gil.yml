@@ -10,9 +10,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    steps:
-    - name: Setup upterm session
-      uses: owenthereal/action-upterm@v1
+    steps:    
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
     - uses: actions/checkout@v4
     - name: Set up Python 3.14
       uses: actions/setup-python@v6    
