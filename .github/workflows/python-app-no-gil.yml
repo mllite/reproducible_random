@@ -13,6 +13,8 @@ jobs:
     steps:    
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
+      with:
+        detached: true
     - uses: actions/checkout@v4
     - name: Set up Python 3.14
       uses: actions/setup-python@v6    
